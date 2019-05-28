@@ -1,0 +1,29 @@
+
+*{
+margin:0;
+padding:0;
+}
+/*setto dimensioni immagini per inserirle nel mio
+contenitore primario e secondario*/
+img{
+width:250px;
+height:250px;
+
+}
+/*assegno tramite una classe la larghezza e altezza
+dei mie due contenitori principali*/
+.contenitore{
+width:760px;
+height:260px;
+}
+/*inizio settaggi comportamento figli blocchi principali*/
+.ipad{
+display: inline-block;
+}
+.iphone{
+display: inline-block;
+}
+.beats{
+display:inline-block;
+}
+/*chiusura settaggi comportamento figli blocchi principali*/
