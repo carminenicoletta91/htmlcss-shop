@@ -1,45 +1,37 @@
-
 *{
-margin:0;
-padding:0;
+ margin:1;
+ padding:1;
 }
 /*setto dimensioni immagini per inserirle nel mio
 contenitore primario e secondario*/
 img{
-width:250px;
-height:250px;
+ width:250px;
+ height:250px;
 
 }
 /*assegno tramite una classe la larghezza e altezza
 dei mie due contenitori principali*/
 .contenitore{
-width:760px;
-height:260px;
+ width:760px;
+ height:260px;
 
 }
-/*inizio settaggi comportamento figli blocchi principali*/
-.ipad{
-display: inline-block;
-position: relative;
+/* setting comportamento figli blocchi principali*/
+.sezione{
+ display:inline-block;
+ position:relative;
 }
-.iphone{
-display: inline-block;
-position:relative;
-}
-.beats{
-display:inline-block;
-position:relative;
-}
-/*chiusura settaggi comportamento figli blocchi principali*/
+/*set per il blocchi contenitori con la scritta sconto colore rosso*/
 .setsconto1{
-width:40px;
-height:20px;
-background-color:red;
-position:absolute;
-top:0;
-right:0;
-text-align:center;
+ width:40px;
+ height:20px;
+ background-color:red;
+ position:absolute;
+ top:0;
+ right:0;
+ text-align:center;
 }
+/*set per i blocchi con la scritta sconto colore verde*/
 .setsconto2{
   width:40px;
   height:20px;
@@ -48,4 +40,18 @@ text-align:center;
   top:0;
   right:0;
   text-align:center;
+}
+/*setto le impostazioni del simobolo:cuore
+lo inizializzo invisibile ma con un colore e una posizione definita*/
+p{
+color:red;
+display:none;
+position: absolute;
+bottom:0;
+left:50%;
+/*setto la modalità visualizzazione simbolo cuore al passaggio del mouse
+sul mio blocco padre risiede p*/
+}
+.sezione:hover p{
+display:block;
 }
