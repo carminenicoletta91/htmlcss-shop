@@ -15,15 +15,37 @@ dei mie due contenitori principali*/
 .contenitore{
 width:760px;
 height:260px;
+
 }
 /*inizio settaggi comportamento figli blocchi principali*/
 .ipad{
 display: inline-block;
+position: relative;
 }
 .iphone{
 display: inline-block;
+position:relative;
 }
 .beats{
 display:inline-block;
+position:relative;
 }
 /*chiusura settaggi comportamento figli blocchi principali*/
+.setsconto1{
+width:40px;
+height:20px;
+background-color:red;
+position:absolute;
+top:0;
+right:0;
+text-align:center;
+}
+.setsconto2{
+  width:40px;
+  height:20px;
+  background-color:green;
+  position:absolute;
+  top:0;
+  right:0;
+  text-align:center;
+}
